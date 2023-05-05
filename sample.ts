@@ -1,1 +1,5 @@
-console.log('Hello Arakir');
+const greeter = (name: string) => {
+  console.log(`Hello ${name}`);
+}
+
+greeter('Arakir');
